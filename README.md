@@ -6,7 +6,7 @@ The solution to the case in the problem sheet(`data.csv`) is stored in `final1.c
 ## Overview
 This project processes expressions stored in a CSV file, evaluates them, and saves the results back into a new CSV file. It supports basic arithmetic operations between numbers and coordinates (spreadsheet-like references), using a combination of `pandas` and `regex` to parse and process the data.
 
-The primary goal is to evaluate expressions in the format `=A1 + B2`, where:
+The primary goal is to evaluate expressions in the format `=A1+B2`, where:
 - `A1` and `B2` are cell references (coordinates).
 - The expressions can involve basic arithmetic operations (`+`, `-`, `*`, `/`).
 - Support is included for decimal and integer values as well.
@@ -40,7 +40,7 @@ pip install pandas
 
 ## How It Works
 
-1. **CSV Input**: The input CSV file (`data2.csv`) has cells containing expressions such as `=A1 + B1`. These expressions may refer to other cells or involve direct numeric values.
+1. **CSV Input**: The input CSV file (`data2.csv`) has cells containing expressions such as `=A1+B1`. These expressions may refer to other cells or involve direct numeric values.
    
 2. **Expression Parsing**: The script parses each expression using regular expressions. It identifies:
    - Whether the expression is a simple arithmetic operation between numbers.
