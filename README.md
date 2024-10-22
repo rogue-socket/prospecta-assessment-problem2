@@ -1,5 +1,8 @@
 # Prospecta Assignment Problem 2
 
+### Note: 
+The solution to the case in the problem sheet(`data.csv`) is stored in `final1.csv` and for another test case(`data2.csv`) is stored in `final2.csv`
+
 ## Overview
 This project processes expressions stored in a CSV file, evaluates them, and saves the results back into a new CSV file. It supports basic arithmetic operations between numbers and coordinates (spreadsheet-like references), using a combination of `pandas` and `regex` to parse and process the data.
 
