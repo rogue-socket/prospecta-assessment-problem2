@@ -1,4 +1,4 @@
-# CSV Expression Evaluator
+# Prospecta Assignment Problem 2
 
 ## Overview
 This project processes expressions stored in a CSV file, evaluates them, and saves the results back into a new CSV file. It supports basic arithmetic operations between numbers and coordinates (spreadsheet-like references), using a combination of `pandas` and `regex` to parse and process the data.
